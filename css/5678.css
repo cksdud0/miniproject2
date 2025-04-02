@@ -1,0 +1,74 @@
+
+       /* 전체 레이아웃 */
+.board-container {
+  width: 60%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* 제목 */
+h2 {
+  margin-bottom: 20px;
+  
+}
+
+/* 테이블 스타일 */
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.board-table th, .board-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.board-table th {
+  background-color: #f4f4f4;
+}
+
+/* 컬럼 너비 지정 */
+.col-id { width: 10%; }
+.col-title { width: 40%; text-align: left; }
+.col-writer { width: 15%; }
+.col-date { width: 20%; }
+.col-views { width: 10%; }
+
+/* 글쓰기 버튼 */
+.board-buttons {
+  margin-top: 20px;
+}
+
+.btn-write {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-write:hover {
+  background-color: #0056b3;
+}
+
+/* 테이블 행 스타일 */
+.board-row {
+  background-color: #fff;
+  transition: background-color 0.3s;
+  
+}
+
+.board-row:hover {
+  background-color: #f9f9f9;
+}
+
+/* 제목 링크 스타일 */
+.col-title a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.col-title a:hover {
+  text-decoration: underline;
+}
